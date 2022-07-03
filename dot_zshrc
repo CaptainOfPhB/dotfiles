@@ -99,9 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # alias
 alias c="clear"
 alias vs="vi ~/.zshrc"
-alias ss="source ~/.zshrc"
 alias pc="proxychains4"
-alias push="git add . && git commit -m 'feat: update' && git push && open https://fe.aihuishou.com/project"
+alias ss="source ~/.zshrc"
 
 # load zprezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
