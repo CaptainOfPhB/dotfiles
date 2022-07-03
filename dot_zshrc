@@ -125,11 +125,8 @@ fi
 # load antigen(zsh plugin manager)
 source ~/.oh-my-zsh/custom/antigen.zsh
 
-# load antigen bundles
-#antigen bundle desyncr/auto-ls
-
-# custom auto-ls configuration
-#AUTO_LS_COMMANDS=(ls)
+# antigen - The plugin manager for zsh
+antigen bundle paulirish/git-open
 
 export PNPM_HOME="/Users/captainofphb/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
