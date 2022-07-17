@@ -118,7 +118,6 @@ source /usr/local/share/antigen/antigen.zsh
 antigen bundle git
 antigen bundle command-not-found
 antigen bundle paulirish/git-open
-antigen bundle jeffreytse/zsh-vi-mode
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -130,9 +129,6 @@ antigen apply
 export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-export PATH="/root/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
 
 # clear session
 clear
