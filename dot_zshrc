@@ -123,6 +123,12 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # tell antigen that you're done
 antigen apply
 
+# brew-command-not-found
+HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+if [ -f "$HB_CNF_HANDLER" ]; then
+source "$HB_CNF_HANDLER";
+fi
+
 # set pnpm path
 export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
@@ -130,6 +136,9 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # zsh plugin `pj` config
 PROJECT_PATHS=(~/Work ~/GitHub)
+
+# thefuck config
+eval $(thefuck --alias)
 
 # clear session
 clear
