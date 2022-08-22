@@ -70,7 +70,13 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z sudo)
+plugins=(
+  z
+  git
+  sudo
+  copyfile
+  command-not-found
+)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/antigen.zsh
@@ -106,18 +112,6 @@ alias ss="source ~/.zshrc"
 # load zprezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
-# load homebrew/command-not-found
-HB_CNF_HANDLER="$(brew --repository)/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
-if [ -f "$HB_CNF_HANDLER" ]; then
-  source "$HB_CNF_HANDLER";
-fi
-
-# Load antigen(zsh plugin manager)
-# using `brew install antigen` to install antigen
-source /usr/local/share/antigen/antigen.zsh
-
-antigen bundle git
-antigen bundle command-not-found
 antigen bundle paulirish/git-open
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
