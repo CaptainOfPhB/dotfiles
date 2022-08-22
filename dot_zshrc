@@ -75,7 +75,9 @@ plugins=(
   pj
   git
   sudo
+  thefuck
   copyfile
+  safe-paste
   command-not-found
 )
 
