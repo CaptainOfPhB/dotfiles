@@ -73,6 +73,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 plugins=(z sudo)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/antigen.zsh
 
 # User configuration
 
