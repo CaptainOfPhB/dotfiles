@@ -132,7 +132,6 @@ fi
 # set pnpm path
 export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # zsh plugin `pj` config
 PROJECT_PATHS=(~/Work ~/GitHub)
