@@ -78,6 +78,7 @@ plugins=(
   thefuck
   copyfile
   safe-paste
+  you-should-use
   command-not-found
 )
 
