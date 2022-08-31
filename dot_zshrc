@@ -78,7 +78,6 @@ plugins=(
   thefuck
   copyfile
   safe-paste
-  you-should-use
   command-not-found
 )
 
@@ -120,6 +119,7 @@ antigen bundle paulirish/git-open
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle MichaelAquilina/zsh-you-should-use
 
 # tell antigen that you're done
 antigen apply
