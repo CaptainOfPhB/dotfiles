@@ -112,6 +112,7 @@ alias cat="bat"
 alias pc="proxychains4"
 alias ss="source ~/.zshrc"
 alias l="exa --long --header --git --group"
+alias webstorm="open -na \"WebStorm.app\" --args"
 
 # load zprezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
