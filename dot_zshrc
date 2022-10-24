@@ -109,6 +109,7 @@ source $HOME/antigen.zsh
 # alias
 alias c="clear"
 alias cat="bat"
+alias su="twzer sh"
 alias pc="proxychains4"
 alias ss="source ~/.zshrc"
 alias l="exa --long --header --git --group"
