@@ -110,9 +110,9 @@ source $HOME/antigen.zsh
 alias c="clear"
 alias cat="bat"
 alias su="twzer sh "
-alias pc="proxychains4"
 alias ss="source ~/.zshrc"
 alias l="exa --long --header --git --group"
+alias pc="proxychains4 -f ~/.proxychains4.conf"
 alias webstorm="open -na \"WebStorm.app\" --args"
 
 # load zprezto
