@@ -111,7 +111,7 @@ alias c="clear"
 alias cat="bat"
 alias bitly="twzer sh"
 alias ss="source ~/.zshrc"
-alias l="exa --long --header --git --group"
+alias l="exa --all --icons --git --oneline"
 alias pc="proxychains4 -f ~/.proxychains4.conf"
 alias webstorm="open -na \"WebStorm.app\" --args"
 
