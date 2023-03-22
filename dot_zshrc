@@ -109,6 +109,7 @@ source $HOME/antigen.zsh
 # alias
 alias c="clear"
 alias cat="bat"
+alias gmm="gm master"
 alias bitly="twzer sh"
 alias ss="source ~/.zshrc"
 alias l="exa --all --icons --git --oneline"
