@@ -148,7 +148,5 @@ PROJECT_PATHS=(~/Work ~/GitHub)
 # thefuck config
 eval $(thefuck --alias)
 
-eval "$(oh-my-posh init zsh)"
-
 # clear session
 clear
