@@ -148,6 +148,5 @@ PROJECT_PATHS=(~/Work ~/GitHub)
 # thefuck config
 eval $(thefuck --alias)
 
-
 # clear session
 clear
