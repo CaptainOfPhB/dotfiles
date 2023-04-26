@@ -112,7 +112,7 @@ alias cat="bat"
 alias gmm="gm master"
 alias bitly="twzer sh"
 alias ss="source ~/.zshrc"
-alias l="exa --all --icons --git --oneline"
+alias l="exa --all --git --oneline"
 alias pc="proxychains4 -f ~/.proxychains4.conf"
 alias webstorm="open -na \"WebStorm.app\" --args"
 
