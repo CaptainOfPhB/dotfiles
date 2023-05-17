@@ -110,7 +110,6 @@ source $HOME/antigen.zsh
 alias c="clear"
 alias cat="bat"
 alias gmm="gm master"
-alias bitly="twzer sh"
 alias ss="source ~/.zshrc"
 alias l="exa --all --git --oneline"
 alias pc="proxychains4 -f ~/.proxychains4.conf"
