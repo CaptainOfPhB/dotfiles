@@ -23,4 +23,7 @@ $ chezmoi edit <file_name>
 
 # pull the latest updates from your remote repo
 $ chezmoi update -v
+
+# apply remote changes
+$ chezmoi apply
 ```
