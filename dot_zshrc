@@ -100,6 +100,9 @@ source $HOME/antigen.zsh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Uncomment the following line to change how often to auto-update (in days).
+export UPDATE_ZSH_DAYS=1
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -125,6 +128,7 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle MichaelAquilina/zsh-you-should-use
+antigen bundle TamCore/autoupdate-oh-my-zsh-plugins
 
 # tell antigen that you're done
 antigen apply
