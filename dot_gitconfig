@@ -1,8 +1,13 @@
 [user]
+  name = CaptainOfPhB
+  email = captainofphb@gmail.com
+
 [includeIf "gitdir:~/Work/"]
   path = ~/.gitconfig.work
+
 [includeIf "gitdir:~/GitHub/"]
   path = ~/.gitconfig.github
+
 [pull]
 	rebase = false
 [push]
