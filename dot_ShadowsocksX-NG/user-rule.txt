@@ -1,0 +1,29 @@
+! Put user rules line by line in this file.
+! See https://adblockplus.org/en/filter-cheatsheet
+
+github.com
+githubusercontent.com
+wallhaven.cc
+rollupjs.org
+testing-library.com
+jestjs.io
+travis-ci.org
+stackoverflow.com
+mui.com
+www.typescriptlang.org
+jsdelivr.net
+loli.net
+codesandbox.io
+nestjs.com
+mozilla.org
+cloudflare.com
+github.blog
+unsplash.com
+slack.com
+discord.com
+vscode.dev
+ruby-toolbox.com
+v2ex.com
+dribbble.com
+vitejs.dev
+vercel.app
