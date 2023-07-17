@@ -2,6 +2,7 @@
 ! See https://adblockplus.org/en/filter-cheatsheet
 
 github.com
+github.blog
 githubusercontent.com
 wallhaven.cc
 rollupjs.org
