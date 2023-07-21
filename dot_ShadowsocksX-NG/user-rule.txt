@@ -18,7 +18,6 @@ codesandbox.io
 nestjs.com
 mozilla.org
 cloudflare.com
-github.blog
 unsplash.com
 slack.com
 discord.com
@@ -28,3 +27,4 @@ v2ex.com
 dribbble.com
 vitejs.dev
 vercel.app
+ant.design
