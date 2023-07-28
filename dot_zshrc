@@ -115,7 +115,7 @@ alias gmm="gm master"
 alias ss="source ~/.zshrc"
 alias gcm="git checkout master"
 alias l="exa --all --git --oneline"
-alias pc="proxychains4 -f ~/.proxychains4.conf"
+alias pc="proxychains4 -f ~/.proxychains.conf"
 alias webstorm="open -na \"WebStorm.app\" --args"
 
 # load zprezto
