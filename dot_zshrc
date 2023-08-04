@@ -111,6 +111,7 @@ export UPDATE_ZSH_DAYS=1
 # alias
 alias c="clear"
 alias cat="bat"
+alias nrm="nrm-ng"
 alias gmm="gm master"
 alias ss="source ~/.zshrc"
 alias gcm="git checkout master"
