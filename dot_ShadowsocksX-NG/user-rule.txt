@@ -30,3 +30,4 @@ vercel.app
 ant.design
 nextjs.org
 react.dev
+namesilo.com
