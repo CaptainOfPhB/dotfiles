@@ -116,7 +116,7 @@ alias gmm="gm master"
 alias ss="omz reload"
 alias gcm="git checkout master"
 alias l="exa --all --git --oneline"
-alias tl="shell ~/terminal-translate.sh"
+alias tl="bash ~/terminal-translate.sh"
 alias pc="proxychains4 -f ~/.proxychains.conf"
 alias webstorm="open -na \"WebStorm.app\" --args"
 
