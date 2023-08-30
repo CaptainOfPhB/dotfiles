@@ -162,5 +162,8 @@ PROJECT_PATHS=(~/Work ~/GitHub)
 # thefuck config
 eval $(thefuck --alias)
 
+# contain ~/.local/bin for fig
+export PATH=$PATH:$HOME/.local/bin
+
 # clear session
 clear
