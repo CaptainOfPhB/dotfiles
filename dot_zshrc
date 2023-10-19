@@ -1,5 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -115,7 +113,6 @@ alias c="clear"
 alias cat="bat"
 alias nrm="nrm-ng"
 alias gmm="gm master"
-alias ss="omz reload"
 alias gcm="git checkout master"
 alias l="exa --all --git --oneline"
 alias tl="bash ~/terminal-translate.sh"
@@ -164,11 +161,5 @@ PROJECT_PATHS=(~/Work ~/GitHub)
 # thefuck config
 eval $(thefuck --alias)
 
-# contain ~/.local/bin for fig
-export PATH=$PATH:$HOME/.local/bin
-
 # clear session
 clear
-
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
