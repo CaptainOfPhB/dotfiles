@@ -148,10 +148,6 @@ export PATH="$PNPM_HOME:$PATH"
 # set bat theme
 export BAT_THEME="Coldark-Cold"
 
-# set n
-export N_PREFIX=$HOME/.n
-export PATH="$N_PREFIX/bin:$PATH"
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
