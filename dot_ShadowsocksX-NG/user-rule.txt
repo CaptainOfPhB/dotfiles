@@ -32,3 +32,5 @@ nextjs.org
 react.dev
 namesilo.com
 dev.to
+bit.ly
+loli.net
