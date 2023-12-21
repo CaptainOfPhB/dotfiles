@@ -36,3 +36,4 @@ bit.ly
 loli.net
 gohugo.io
 mdxjs.com
+unpkg.com
